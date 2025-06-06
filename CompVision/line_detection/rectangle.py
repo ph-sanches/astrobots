@@ -30,7 +30,7 @@ while True:
     if len(contours) > 0:
         x, y, w, h = cv2.boundingRect(contours[0])
         cv2.rectangle(image, (x, y), (x+w, y+h), (0, 0, 255), 3)
-    cv2.imshow("Retângulo", frame)
+    cv2.imshow("Retangulo", frame)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
