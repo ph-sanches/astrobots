@@ -51,7 +51,7 @@ while True:
         cv2.putText(frame, str(error), (10, 320), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 2)
         cv2.line(frame, (int(x_min), 200), (int(x_min), 250), (255, 0, 0), 3)
 
-    cv2.imshow("Ângulo", frame)
+    cv2.imshow("Angulo", frame)
 
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
