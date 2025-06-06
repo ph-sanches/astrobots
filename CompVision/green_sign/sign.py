@@ -65,7 +65,7 @@ while True:
     else:
         cv2.putText(frame, "Nenhum sinal detectado", (200, 340), cv2.FONT_HERSHEY_SIMPLEX, 1.5, (255, 0, 0), 3)
         
-    cv2.imshow("Orientação de Movimento", frame)
+    cv2.imshow("Orientacao de movimento", frame)
     
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
